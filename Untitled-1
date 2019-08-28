@@ -1,0 +1,5 @@
+this all should be done when the user clicks that they want to send an email 
+( ) grab each of the checkboxes (with them store in an array if you want)
+( ) see if each of those checkboxes has been checked (...getElementeById element.checked)
+( ) if one has been checked, store that it's been checked somewhere (as a var (array?))
+( ) then compose your email string 

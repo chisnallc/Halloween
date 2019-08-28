@@ -1,0 +1,59 @@
+
+
+#background {
+    background-image: url("./candle-wallpaper.jpg");
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    min-height: 100%;
+    line-height: 1.7;
+ 
+}
+
+        
+#wrapper {
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    font-size: 80px;
+    color: red ;
+    font-weight: bolder;
+}
+
+
+#tellingThePeople {
+
+    text-align: left;
+    font-size: 50px;
+    
+}
+#lightening {
+
+    height: 80%;
+    width: 80%;
+    z-index: 2;
+    display: block;
+    position: absolute;
+}
+
+#scary {
+
+    text-align: center;
+    padding-right: 20%;
+    padding-left: 20%;
+    font-size: 20px;
+    font-family:'Long Cang', cursive;
+    
+}
+ .checkbox-inline {
+
+    font-size: 25px;
+    
+ }
+ .carousel {
+    width:300px;
+    height:200px;
+    padding-left: 50px
+    
+  }
+
+
+ 
