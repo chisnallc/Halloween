@@ -2,10 +2,11 @@
 
 #background {
     background-image: url("./candle-wallpaper.jpg");
-    /* background-repeat: no-repeat; */
-    /* background-size: cover; */
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center;
     min-height: 100%;
-    line-height: 1.7;
+    /* line-height: 1.7; */
  
 }
 
