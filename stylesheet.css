@@ -1,21 +1,41 @@
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    text-align: center;
+}
+    .column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    }
 
+    .title-column {
+    height: 130px;
+    }
+
+    .comparison-column {
+    height: 100px;
+    display: block;
+    }
 
 #background {
-    background-image: url("./candle-wallpaper.jpg");
+    background-image: url("https://c.pxhere.com/photos/87/06/horror_creepy_night_spooky_scary_fear_dark_black-774208.jpg!d");
     background-repeat: no-repeat !important; 
     background-size: cover !important; 
     background-position: center;
     min-height: 100vh;
     /* line-height: 1.7; */
- 
+    /* ./candle-wallpaper.jpg */
 }
 
-        
 #wrapper {
     text-align: center;
     font-family: 'Amatic SC', cursive;
     font-size: 80px;
-    color: red ;
+    color: white ;
     font-weight: bolder;
 }
 
@@ -40,7 +60,7 @@
     text-align: center;
     padding-right: 20%;
     padding-left: 20%;
-    font-size: 20px;
+    font-size: 30px;
     font-family:'Long Cang', cursive;
     
 }
@@ -56,5 +76,10 @@
     
   }
 
+.bg-dark {
 
+    font-family: Franklin Gothic!important;
+    font-size: 30px;
+    
+}
  
